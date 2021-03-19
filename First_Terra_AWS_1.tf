@@ -70,7 +70,7 @@ resource "aws_route_table_association" "a" {
   route_table_id = aws_route_table.esgi_route_table.id
 }
 
-# Creation of security group that we linked to the ESGI_Lab VPC.
+# Creation of a security group that we linked to the ESGI_Lab VPC.
 resource "aws_security_group" "allow_http_ssh" {
   name        = "allow_http"
   description = "Allow HTTP inbound traffic"
