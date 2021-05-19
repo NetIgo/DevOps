@@ -1,0 +1,1 @@
+python3 netbox-prometheus-sd.py http://172.29.129.189:8000/ 0123456789abcdef0123456789abcdef01234567 /home/pa/output.json
